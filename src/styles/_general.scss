@@ -1,0 +1,22 @@
+@import "./mixins";
+@import "./fonts";
+@import "./variables";
+
+* {
+  @include no-select;
+}
+
+body {
+  font-family: Poppins-Regular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: $white;
+}

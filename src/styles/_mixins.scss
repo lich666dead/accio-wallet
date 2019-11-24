@@ -1,0 +1,10 @@
+@mixin no-select {
+  user-select: none;
+}
+
+ 
+@mixin mobile {
+  @media (max-width: #{$md-break - 1px}) {
+      @content;
+  }
+}
