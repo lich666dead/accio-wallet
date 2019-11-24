@@ -81,11 +81,13 @@ export default {
 
 .First {
   &__wrapper {
-    margin-top: 100px;
-
     display: grid;
     grid-template-rows: 1fr 35px 150px;
     grid-row-gap: 10px;
+
+    justify-content: center;
+
+    margin-top: 100px;
   }
 }
 </style>
